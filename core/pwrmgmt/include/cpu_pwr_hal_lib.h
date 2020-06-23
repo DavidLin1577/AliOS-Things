@@ -2,8 +2,8 @@
  * Copyright (C) 2018 Alibaba Group Holding Limited
  */
 
-#ifndef CPU_PWR_HAL_H
-#define CPU_PWR_HAL_H
+#ifndef CPU_PWR_HAL_LIB_H
+#define CPU_PWR_HAL_LIB_H
 
 #ifdef __cplusplus
 extern "C"
@@ -64,4 +64,4 @@ pwr_status_t cpu_pwr_c_state_capability_get(uint32_t cpu_idx, uint32_t *p_suppor
 }
 #endif
 
-#endif /* CPU_PWR_HAL_H */
+#endif /* CPU_PWR_HAL_LIB_H */
