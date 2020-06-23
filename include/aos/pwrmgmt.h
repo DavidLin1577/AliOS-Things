@@ -65,8 +65,8 @@ int32_t aos_pwrmgmt_cpu_lowpower_resume(uint32_t resume_module);
 
 #if (PWRMGMT_CONFIG_MINISLEEP > 0)
 /**
- * This function will keep the CPU active for active_time ms
- * @param[in]  active_time  the time to keep the CPU active in milisecond
+ * This function will set the minimum CPU sleep time for time_ms
+ * @param[in]  time_ms the minimum CPU sleep time in milisecond
  * @return  the operation status, 0 is OK, -1 is error
  */
 int32_t aos_pwrmgmt_cpu_minisleep_set(uint32_t time_ms);
