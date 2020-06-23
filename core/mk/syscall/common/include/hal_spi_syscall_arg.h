@@ -2,8 +2,8 @@
  * Copyright (C) 2015-2019 Alibaba Group Holding Limited
  */
 
-#ifndef HAL_UART_SYSCALL_ARG_H
-#define HAL_UART_SYSCALL_ARG_H
+#ifndef HAL_SPI_SYSCALL_ARG_H
+#define HAL_SPI_SYSCALL_ARG_H
 
 #include "aos/hal/spi.h"
 
