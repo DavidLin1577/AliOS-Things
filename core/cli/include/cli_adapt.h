@@ -16,6 +16,7 @@ extern "C" {
  * @param[in] fn   the entry function of task
  * @param[in] arg  the parameter of task entry function
  * @param[in] stack the size of task stack
+ * @param[in] priority the priority of task
  *
  * @return 0 on success, otherwise failed
  */
