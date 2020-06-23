@@ -2,8 +2,8 @@
  * Copyright (C) 2015-2019 Alibaba Group Holding Limited
  */
 
-#ifndef SYSCALL_H
-#define SYSCALL_H
+#ifndef RHINO_SYSCALL_ARG_H
+#define RHINO_SYSCALL_ARG_H
 
 #include <k_api.h>
 
@@ -232,5 +232,5 @@ typedef struct {
     size_t msq_id;
 } krhino_msg_del_syscall_arg_t;
 
-#endif /* SYSCALL_H */
+#endif /* RHINO_SYSCALL_ARG_H */
 
