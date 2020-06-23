@@ -159,8 +159,7 @@ kstat_t krhino_timer_change(ktimer_t *timer, tick_t first, tick_t round);
  * Change attributes of a timer without timer_stop and timer_start.
  *
  * @param[in]  timer     pointer to the timer
- * @param[in]  first     ticks of the first timer triger
- * @param[in]  round     ticks of the timer period, 0 means one-shot timer
+ * @param[in]  arg       timer callback arg
  *
  * @return  the operation status, RHINO_SUCCESS is OK, others is error
  */
