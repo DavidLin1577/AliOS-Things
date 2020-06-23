@@ -208,5 +208,5 @@ typedef int32_t (*item_func)(kv_item_t *item, const char *key);
 
 #define KV_ALIGN(x) ((x + ~KV_ALIGN_MASK) & KV_ALIGN_MASK)
 
-#endif  /* KV_INTERNAL_H */
+#endif  /* KV_TYPES_H */
 
