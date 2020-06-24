@@ -2,6 +2,9 @@
  * Copyright (C) 2015-2019 Alibaba Group Holding Limited
  */
 
+#ifndef NETMGR_PRIV_H
+#define NETMGR_PRIV_H
+
 #include "netmgr.h"
 #include "hal/net.h"
 
@@ -22,3 +25,5 @@ typedef struct {
 } net_interface_t;
 
 net_interface_t *netmgr_get_net_interface(uint8_t interface_type);
+
+#endif/* NETMGR_PRIV_H */
